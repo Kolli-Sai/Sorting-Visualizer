@@ -59,3 +59,14 @@ nav button:hover {
   justify-content: flex-end; */
   margin-right: 5px;
 }
+
+.body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.height {
+  border-left: 6px solid yellow;
+  /* height: 30px; */
+  margin-right: 5px;
+}
