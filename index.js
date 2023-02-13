@@ -1,3 +1,6 @@
+let btn = document.querySelector("#newArray");
+btn.addEventListener("click", show, { once: true });
+
 function show() {
   let parent = document.querySelector(".flex-container");
   let arr = [];
