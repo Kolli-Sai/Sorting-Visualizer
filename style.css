@@ -22,8 +22,8 @@ body {
 }
 
 .row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  display: flex;
+  grid-template-rows: 1fr 1fr 2fr;
 }
 
 #input {
@@ -31,42 +31,17 @@ body {
   padding: 10px;
   justify-content: space-around;
 }
-nav {
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: auto auto;
-}
-nav button {
-  border: 1px solid #198754;
-  border-radius: 5px;
-  color: #198754;
-  padding: 10px 20px;
-  background-color: black;
-}
-nav button:hover {
-  background-color: #198754;
-  color: white;
-  /* border: 1px solid #198754;
-    color: #198754;
-    padding: 10px 20px; */
-}
-.right {
-  display: flex;
-  justify-content: flex-end;
-}
-.right button {
-  /* display: flex;
-  justify-content: flex-end; */
-  margin-right: 5px;
-}
 
-.body {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+#bar {
+  margin: 10px;
+  background-color: bisque;
 }
-.height {
-  border-left: 6px solid yellow;
-  /* height: 30px; */
-  margin-right: 5px;
+.newBars {
+  background-color: yellow;
+  border: 1pt solid black;
+  width: 10px;
+  transition: 0.1s all ease;
+}
+#input235 {
+  display: none;
 }
